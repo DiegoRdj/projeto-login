@@ -23,19 +23,27 @@
 @media screen and (min-width: 992px)
 {
     #login {
-        width: 925px;
+        width: 950px;
     }
     #imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
     #form {
-        float: right;
+        float: left;
         width: 50%;
     }
     body {
         background-image: linear-gradient(to top, #161616, #343434);
+    }
+    h1 {
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 2em;
+    }
+    p {
+        font-size: 1em;
     }
 }
     
