@@ -3,18 +3,18 @@
 @media screen and (min-width: 768px)
  {
     body {
-        background-image: linear-gradient(to bottom, #161616, #343434);
+        background-image: linear-gradient(to top, #161616, #343434);
     }
 #login {
     width: 80vw;
-    height: 300;
+    height: 300px;
 }
 #imagem {
     float: left;
     width: 30%;
     height: 100%;
 }
-#formulario {
+#form {
     float: right;
     width: 70%;
 }
@@ -25,6 +25,7 @@
 {
     #login {
         width: 950px;
+        height: 325px;
     }
     #imagem{
         float: right;
@@ -45,6 +46,7 @@
     }
     p {
         font-size: 1em;
+        margin: 20px 0px;
     }
 }
     
